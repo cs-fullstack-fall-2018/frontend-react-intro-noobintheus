@@ -1,22 +1,22 @@
-import React, { Component } from 'react';
-import AccountSetup from './AccountSetup'
+
+import grades  from './grade'
 
 
 
 
 
-class AccountSetup extends Component {
+class grade extends Component {
     render() {
 
         return (
-            <div className="App2">
-            <AccountSetup account={"100"}/>
-        <h1>this is our new app</h1>
-        <h3>AccountSetup account = {"100"}</h3>
+            <div className="grade">
+            <gradeSetup account={"100"}/>
+        <h1>this is our new grade</h1>
+        <h3>grade = {"100"}</h3>
 
             </div>
     );
     }
 }
 
-export default AccountSetup;
+export default grade;
